@@ -1,0 +1,25 @@
+.nav-left {
+    float: left;
+  }
+  
+  .nav-right {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .links {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: #ffffff; /* You can change this color to match your design */
+  }
+  
+  .links a:hover {
+    color: #666; /* You can change this color to match your design */
+  }
+  

@@ -1,0 +1,12 @@
+.about-container {
+    height: 10%;
+    border-top: 3px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.about-section {
+    padding-right: 5rem;
+    color: white;
+    font-size: 2rem;
+}
