@@ -20,8 +20,7 @@ const Footer = () => {
     </div>
     <div className='footer-middle-bottom'>
         <h5>Elvish Travel 2024 ©</h5>
-        <h6>This site was created for fun. Don't try to actually book a vacation. If it were real I'd be living it up in Rivendell, not making websites about it. Thanks for viewing! </h6>
-    </div>
+        </div>
     </>
   )
 }

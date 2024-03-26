@@ -2,10 +2,6 @@ import React from "react";
 import './navbarstyles.css'
 
 const Navbar = () => {
-    const hoverStyle = {
-        textDecoration: "underline",
-        color: "blue"
-      };
 
   return (
     <>
@@ -17,7 +13,6 @@ const Navbar = () => {
     </div>
     <ul className="nav-right">
         <li className="links"><a href="/bookings">Bookings</a></li>
-        <li className="links"><a href="/contact">Contact</a></li>
         <li className="links"><a href="/map">Map</a></li>
     </ul>
     </div>

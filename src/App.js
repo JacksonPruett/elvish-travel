@@ -1,24 +1,16 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from "./components/Navbar";
-import HomeHero from "./components/HomeHero";
-import WhoWeAre from "./components/WhoWeAre";
-import Footer from "./components/Footer";
+import { Route, Routes } from "react-router-dom";
+import Bookings from "./pages/Bookings";
+import Home from "./pages/Home";
 
 const App = () => {
   return (
     <>
-      <div className="App">
-        <header className="App-header">
-          <Navbar />
-        </header>
-      <HomeHero />
-      <br/>
-      <WhoWeAre />
-      <footer>
-        <Footer />
-      </footer>
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/bookings" element={<Bookings />} />
+      </Routes>
     </>
   );
 };
